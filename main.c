@@ -74,6 +74,7 @@ void watchEffect(){
 int main() {
     studentList = initState();
     watchEffect();
+    printf("同城交友");
 }
 
 Student *initState() {
